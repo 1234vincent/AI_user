@@ -1,7 +1,7 @@
 # AI_user/__init__.py
 from flask import Flask
-from AI_user.models.user import db
-from AI_user.url.user import user_bp  
+from AI_user.models.model import db
+from AI_user.url.url import user_bp  
 
 def create_app():
     app = Flask(__name__)
